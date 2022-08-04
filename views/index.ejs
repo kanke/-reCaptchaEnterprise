@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>Google ReCAPTHA Enterprise Page Example</title>
+</head>
+
+<body>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdHwjkhAAAAAE25krXsKAD1rES2osoA-f5A2G7m"></script>
+  <form id="registrationForm">
+    <p>
+      <label for="fname">Full name:</label>
+      <input type="text" name="fullname" id="fname">
+    </p>
+    <p>
+      <label for="age">Age:</label>
+      <input type="text" name="age" id="age">
+    </p>
+    <p>
+      <label for="userid">User ID:</label>
+      <input type="text" name="userid" id="userid">
+    </p>
+    <button class="g-recaptcha" 
+        data-sitekey="6LdHwjkhAAAAAE25krXsKAD1rES2osoA-f5A2G7m"
+        data-callback='createToken'
+        data-action='submit'>Submit</button>
+  </form>
+    <p id = "score-render"></p>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

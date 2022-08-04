@@ -1,0 +1,24 @@
+{
+  "name": "google-captcha-backend",
+  "author": "",
+  "license": "",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/recaptcha-enterprise": "^3.0.1",
+    "axios": "^0.20.0",
+    "ejs": "^3.1.8",
+    "express": "~4.16.1",
+    "process": "^0.11.10"
+  },
+  "description": "Sample backend service for Google CAPTCHA validations",
+  "main": "index.js",
+  "keywords": [
+    "google",
+    "captcha",
+    "backend"
+  ]
+}
